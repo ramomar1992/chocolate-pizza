@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+* {
+    box-sizing: border-box;
+}
+h3 {
+    font-family: 'Roboto Slab';
+}
+p{
+    font-family:'Roboto Slab';
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+
+}
+body {
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body h4{
+    font-family: Dosis;
+    color: rgb(56, 55, 55);
+}
+header, main,footer{
+    width: 80%;
+}
+header{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 6rem;
+}
+header section:first-child img{
+    float: left;
+}
+header section:first-child hgroup h1 {
+    font-family: Yellowtail;
+    font-size: 2rem;
+    font-weight: 600;
+}
+header section:first-child {
+    /* background-color: blue; */
+    width: 300px;
+}
+
+header section:first-child hgroup h4 {
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+header section:first-child hgroup{
+    margin-left: 50px;
+}
+header section:last-child img:nth-child(6){
+    margin-right: 10px;
+}
+main {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+#headMain {
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    align-items:center ;
+}
+#headMain section{
+    display: flex;
+    margin-top: 50px;
+}
+main h2{
+    font-family: Oswald;
+    font-size: 3rem;
+}
+main section:first-child section h4{
+    height: 13px;
+    color: #b1a8b4;
+    font-weight: 700;
+}
+hr{
+    border-style: ;
+width: 100%;
+height: 20px;
+background-color:#b1a8b4;
+}
+main hgroup {
+        display: inline-block;
+}
+main article img:first-of-type{
+    width: 100%;
+}
+#mainArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mainArticle img{
+    margin-bottom: 20px;
+}
+#mainArticle p {
+    /* margin: 30px; */
+    /* padding: 20px; 
+    marg*/
+    margin:15px 0;
+    text-align:left;
+    
+}
+#mainArticle ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    height: 66%;
+    width: 80%;
+    margin:3%;
+    margin-left: 10%;
+    margin-top: 5%;
+    /* padding: 20px; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: space-around; */
+    /* background-color: blue; */
+    
+
+}
+.list{
+    background-image: url("/img/list-bg.png");
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    background-repeat:no-repeat;
+    margin: 30px 0;
+}
+#mainArticle ul li{
+    margin:10px;
+    height: 7.7%;
+    width: 50%;
+    font-family: 'Patrick Hand';
+    /* padding-left: 100px; */
+    font-size: x-large;}
+#article2{
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+}
+#article2 *{
+    width: fit-content;
+    height: fit-content;
+}
+#article2 section{
+    margin: 0 30px;
+}
+#article2 section h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1.5rem 0 1rem 0;
+}
+.lastHR {
+    width: fit-content;
+    height: fit-content;
+}
+hr.lastHR {
+    width: 45%;
+    display: inline-block;
+    background-color: #aaaaa1;
+}
+.secHR{
+    display: flex;
+    align-items: center;
+    margin:2rem 0;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    color: #aaaaa1;
+}
+main article button {
+    height: 60px !important;
+    width: 16rem !important;
+    border-radius: 0;
+    border:0;
+    background-color: rgb(188, 112, 88);
+    color: rgb(250, 242, 225);
+    font-size: 1.2rem;
+    font-family: Dosis;
+    font-weight: 600;
+}
